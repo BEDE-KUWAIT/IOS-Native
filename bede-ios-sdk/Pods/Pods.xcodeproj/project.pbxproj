@@ -7,51 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		99DAFA7CF761204C7C090E533B9CC2B6 /* Pods-bede-ios-sdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FF5A2EBAB417712AE625479A29362D9 /* Pods-bede-ios-sdk-dummy.m */; };
-		DAE08E6E3AF22885F7C51E2AF452C125 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		E7E77154BE3EDDC591973A598BEA63C7 /* Pods-bede-ios-sdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5D0B06212FCE08B831016DD17417D76 /* Pods-bede-ios-sdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96B1AF8CF5EE07039DC2D2A171B56FFD /* Pods-BedeSdk-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECEFBB1DB32A077B3E3C7C7D0E806A8F /* Pods-BedeSdk-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B31F7A9A3A94B791B075DA7E19A6F19 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		9DD0D4DF07308060B7822D017A0884E3 /* Pods-BedeSdkExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6AE1424A19E5779F89B59E5F581066 /* Pods-BedeSdkExample-dummy.m */; };
+		A9B72B36BEAD1DFDA7BAEE5880F753AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		C3C1D550E4E231D363621100329716F4 /* Pods-BedeSdkExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 679EF89FD1D844B8D5C357B5E7BBC931 /* Pods-BedeSdkExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7C7582D582CDB10A9659C67A7F97D33 /* Pods-BedeSdk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A93EF5B96E58AA7404EC903668ABDE /* Pods-BedeSdk-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		06A1323B026F315F4F4BDA66ADAB8F80 /* Pods-bede-ios-sdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-bede-ios-sdk"; path = Pods_bede_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		055EC15C096E676EB435EA50E9BD0753 /* Pods-BedeSdkExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BedeSdkExample.release.xcconfig"; sourceTree = "<group>"; };
+		0D2724DA760A438145D2D181215BF2DF /* Pods-BedeSdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BedeSdk.modulemap"; sourceTree = "<group>"; };
+		288311993EE8EEF10238363FEC69CE27 /* Pods-BedeSdkExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BedeSdkExample"; path = Pods_BedeSdkExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C02C9F3C0C3571FE901D9BDE4E6C7F1 /* Pods-BedeSdkExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BedeSdkExample-Info.plist"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3E3E2C29B1EB408E1EE70C3BCFFF7AFD /* Pods-bede-ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bede-ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
-		3FF5A2EBAB417712AE625479A29362D9 /* Pods-bede-ios-sdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bede-ios-sdk-dummy.m"; sourceTree = "<group>"; };
-		7FD7FFD06DC5A68AF6019D12BFEEF9A2 /* Pods-bede-ios-sdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bede-ios-sdk-Info.plist"; sourceTree = "<group>"; };
-		801C0F808C076C39E4D44FEEC65B5525 /* Pods-bede-ios-sdk-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bede-ios-sdk-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8707CE429DD48BE8271A0DC0251D1212 /* Pods-bede-ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bede-ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		39C2E2ECBE6ED475D05A09287F56817D /* Pods-BedeSdk-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BedeSdk-Info.plist"; sourceTree = "<group>"; };
+		3C479C351DD1AAB1C11830C86F395BAA /* Pods-BedeSdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BedeSdk.debug.xcconfig"; sourceTree = "<group>"; };
+		416911E6B51566308DBB2CFC750BFD32 /* Pods-BedeSdkExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BedeSdkExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		476FB571A880CD7BE0AC12F8C78169FE /* Pods-BedeSdkExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BedeSdkExample.debug.xcconfig"; sourceTree = "<group>"; };
+		56EBF15800FDF7F6029515E6E2344C2D /* Pods-BedeSdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BedeSdk.release.xcconfig"; sourceTree = "<group>"; };
+		679EF89FD1D844B8D5C357B5E7BBC931 /* Pods-BedeSdkExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BedeSdkExample-umbrella.h"; sourceTree = "<group>"; };
+		76B36F0B469CE4B6080AB8E5C41584C3 /* Pods-BedeSdk-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BedeSdk-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A8B00FCF364944AE70FAA62A30197EDC /* Pods-bede-ios-sdk.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-bede-ios-sdk.modulemap"; sourceTree = "<group>"; };
-		C7AA2F6C6FFC7DA9EE7729C176EFBC5E /* Pods-bede-ios-sdk-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bede-ios-sdk-acknowledgements.plist"; sourceTree = "<group>"; };
-		E5D0B06212FCE08B831016DD17417D76 /* Pods-bede-ios-sdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bede-ios-sdk-umbrella.h"; sourceTree = "<group>"; };
+		A459D8F51DD9971DA130F9B76C314117 /* Pods-BedeSdk-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BedeSdk-acknowledgements.plist"; sourceTree = "<group>"; };
+		AE3FB231E10FADF761C428EC0509A78F /* Pods-BedeSdk */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-BedeSdk"; path = Pods_BedeSdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF6AE1424A19E5779F89B59E5F581066 /* Pods-BedeSdkExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BedeSdkExample-dummy.m"; sourceTree = "<group>"; };
+		D7A93EF5B96E58AA7404EC903668ABDE /* Pods-BedeSdk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BedeSdk-dummy.m"; sourceTree = "<group>"; };
+		DE1776C84D4E24FA4A3FC04C5910071C /* Pods-BedeSdkExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BedeSdkExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ECEFBB1DB32A077B3E3C7C7D0E806A8F /* Pods-BedeSdk-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BedeSdk-umbrella.h"; sourceTree = "<group>"; };
+		EE74D90C7DC1A30F428510091D26F3A5 /* Pods-BedeSdkExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BedeSdkExample.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		12831EB6C430992CF9D1230BA25D0CF4 /* Frameworks */ = {
+		C94CE0C6A0375DE0CC41C8F048050B85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAE08E6E3AF22885F7C51E2AF452C125 /* Foundation.framework in Frameworks */,
+				A9B72B36BEAD1DFDA7BAEE5880F753AF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E471AA45267C3F76D20225FFAFCDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B31F7A9A3A94B791B075DA7E19A6F19 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B0E1B5481DCCAA1A1AE3572860CFFC52 /* Pods-bede-ios-sdk */ = {
+		1381BDDBAB6B8BFA1735D7E158CB39AC /* Pods-BedeSdk */ = {
 			isa = PBXGroup;
 			children = (
-				A8B00FCF364944AE70FAA62A30197EDC /* Pods-bede-ios-sdk.modulemap */,
-				801C0F808C076C39E4D44FEEC65B5525 /* Pods-bede-ios-sdk-acknowledgements.markdown */,
-				C7AA2F6C6FFC7DA9EE7729C176EFBC5E /* Pods-bede-ios-sdk-acknowledgements.plist */,
-				3FF5A2EBAB417712AE625479A29362D9 /* Pods-bede-ios-sdk-dummy.m */,
-				7FD7FFD06DC5A68AF6019D12BFEEF9A2 /* Pods-bede-ios-sdk-Info.plist */,
-				E5D0B06212FCE08B831016DD17417D76 /* Pods-bede-ios-sdk-umbrella.h */,
-				8707CE429DD48BE8271A0DC0251D1212 /* Pods-bede-ios-sdk.debug.xcconfig */,
-				3E3E2C29B1EB408E1EE70C3BCFFF7AFD /* Pods-bede-ios-sdk.release.xcconfig */,
+				0D2724DA760A438145D2D181215BF2DF /* Pods-BedeSdk.modulemap */,
+				76B36F0B469CE4B6080AB8E5C41584C3 /* Pods-BedeSdk-acknowledgements.markdown */,
+				A459D8F51DD9971DA130F9B76C314117 /* Pods-BedeSdk-acknowledgements.plist */,
+				D7A93EF5B96E58AA7404EC903668ABDE /* Pods-BedeSdk-dummy.m */,
+				39C2E2ECBE6ED475D05A09287F56817D /* Pods-BedeSdk-Info.plist */,
+				ECEFBB1DB32A077B3E3C7C7D0E806A8F /* Pods-BedeSdk-umbrella.h */,
+				3C479C351DD1AAB1C11830C86F395BAA /* Pods-BedeSdk.debug.xcconfig */,
+				56EBF15800FDF7F6029515E6E2344C2D /* Pods-BedeSdk.release.xcconfig */,
 			);
-			name = "Pods-bede-ios-sdk";
-			path = "Target Support Files/Pods-bede-ios-sdk";
+			name = "Pods-BedeSdk";
+			path = "Target Support Files/Pods-BedeSdk";
+			sourceTree = "<group>";
+		};
+		78D6239E343CB908F55B65E942895E40 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1381BDDBAB6B8BFA1735D7E158CB39AC /* Pods-BedeSdk */,
+				9629BFA65EF0334897C135B18ED8D6F8 /* Pods-BedeSdkExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9629BFA65EF0334897C135B18ED8D6F8 /* Pods-BedeSdkExample */ = {
+			isa = PBXGroup;
+			children = (
+				EE74D90C7DC1A30F428510091D26F3A5 /* Pods-BedeSdkExample.modulemap */,
+				DE1776C84D4E24FA4A3FC04C5910071C /* Pods-BedeSdkExample-acknowledgements.markdown */,
+				416911E6B51566308DBB2CFC750BFD32 /* Pods-BedeSdkExample-acknowledgements.plist */,
+				CF6AE1424A19E5779F89B59E5F581066 /* Pods-BedeSdkExample-dummy.m */,
+				2C02C9F3C0C3571FE901D9BDE4E6C7F1 /* Pods-BedeSdkExample-Info.plist */,
+				679EF89FD1D844B8D5C357B5E7BBC931 /* Pods-BedeSdkExample-umbrella.h */,
+				476FB571A880CD7BE0AC12F8C78169FE /* Pods-BedeSdkExample.debug.xcconfig */,
+				055EC15C096E676EB435EA50E9BD0753 /* Pods-BedeSdkExample.release.xcconfig */,
+			);
+			name = "Pods-BedeSdkExample";
+			path = "Target Support Files/Pods-BedeSdkExample";
+			sourceTree = "<group>";
+		};
+		9C01038A03027B04F54BCA71743534EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE3FB231E10FADF761C428EC0509A78F /* Pods-BedeSdk */,
+				288311993EE8EEF10238363FEC69CE27 /* Pods-BedeSdkExample */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -59,8 +113,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				F52BA317CAF7D53D255BE55C2444F770 /* Products */,
-				DF5AFD00AC1B4F5DEDD6B59D9C6ACE31 /* Targets Support Files */,
+				9C01038A03027B04F54BCA71743534EF /* Products */,
+				78D6239E343CB908F55B65E942895E40 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,14 +126,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DF5AFD00AC1B4F5DEDD6B59D9C6ACE31 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B0E1B5481DCCAA1A1AE3572860CFFC52 /* Pods-bede-ios-sdk */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,44 +134,62 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		F52BA317CAF7D53D255BE55C2444F770 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				06A1323B026F315F4F4BDA66ADAB8F80 /* Pods-bede-ios-sdk */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E77B149BC04D13B9B7A7EAAF03424178 /* Headers */ = {
+		0680E44D233CA3BA1D3C686C24699CD6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7E77154BE3EDDC591973A598BEA63C7 /* Pods-bede-ios-sdk-umbrella.h in Headers */,
+				C3C1D550E4E231D363621100329716F4 /* Pods-BedeSdkExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77CD57404AFC749AC39FA7E5D21323C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96B1AF8CF5EE07039DC2D2A171B56FFD /* Pods-BedeSdk-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C2CA3AF600B559EFFC69CB3D3F376429 /* Pods-bede-ios-sdk */ = {
+		0609CA9629B59884432F7064626D8A15 /* Pods-BedeSdkExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F63847740F46A5832D281E5A3689C56 /* Build configuration list for PBXNativeTarget "Pods-bede-ios-sdk" */;
+			buildConfigurationList = E10A66A784B355F075D0D3A3AB33CD2A /* Build configuration list for PBXNativeTarget "Pods-BedeSdkExample" */;
 			buildPhases = (
-				E77B149BC04D13B9B7A7EAAF03424178 /* Headers */,
-				9C63403438183ECBA2998B18DF7ABEFD /* Sources */,
-				12831EB6C430992CF9D1230BA25D0CF4 /* Frameworks */,
-				46C2DDC1FFB8D3358BF40FD2AA65AFF1 /* Resources */,
+				0680E44D233CA3BA1D3C686C24699CD6 /* Headers */,
+				A0407B38BDEB93A7A1C56404F862A960 /* Sources */,
+				C94CE0C6A0375DE0CC41C8F048050B85 /* Frameworks */,
+				FB860528F49B9DBFEB39DC2225DEBD5E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-bede-ios-sdk";
-			productName = Pods_bede_ios_sdk;
-			productReference = 06A1323B026F315F4F4BDA66ADAB8F80 /* Pods-bede-ios-sdk */;
+			name = "Pods-BedeSdkExample";
+			productName = Pods_BedeSdkExample;
+			productReference = 288311993EE8EEF10238363FEC69CE27 /* Pods-BedeSdkExample */;
+			productType = "com.apple.product-type.framework";
+		};
+		C860039CAF9F4C7300A9979E1337C7A3 /* Pods-BedeSdk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B87DDA21498A280DE4F297312A9958A /* Build configuration list for PBXNativeTarget "Pods-BedeSdk" */;
+			buildPhases = (
+				77CD57404AFC749AC39FA7E5D21323C3 /* Headers */,
+				CCF4F9E78B3A8AC64C9913601CCD9A2A /* Sources */,
+				F7E471AA45267C3F76D20225FFAFCDBB /* Frameworks */,
+				BEB6ADACD6282A636B179096B7614BA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BedeSdk";
+			productName = Pods_BedeSdk;
+			productReference = AE3FB231E10FADF761C428EC0509A78F /* Pods-BedeSdk */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -148,17 +212,25 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F52BA317CAF7D53D255BE55C2444F770 /* Products */;
+			productRefGroup = 9C01038A03027B04F54BCA71743534EF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2CA3AF600B559EFFC69CB3D3F376429 /* Pods-bede-ios-sdk */,
+				C860039CAF9F4C7300A9979E1337C7A3 /* Pods-BedeSdk */,
+				0609CA9629B59884432F7064626D8A15 /* Pods-BedeSdkExample */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		46C2DDC1FFB8D3358BF40FD2AA65AFF1 /* Resources */ = {
+		BEB6ADACD6282A636B179096B7614BA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB860528F49B9DBFEB39DC2225DEBD5E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -168,20 +240,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9C63403438183ECBA2998B18DF7ABEFD /* Sources */ = {
+		A0407B38BDEB93A7A1C56404F862A960 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99DAFA7CF761204C7C090E533B9CC2B6 /* Pods-bede-ios-sdk-dummy.m in Sources */,
+				9DD0D4DF07308060B7822D017A0884E3 /* Pods-BedeSdkExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF4F9E78B3A8AC64C9913601CCD9A2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C7582D582CDB10A9659C67A7F97D33 /* Pods-BedeSdk-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		5BD700C4896F4792984B2548F2A3C2BC /* Debug */ = {
+		026EC78B91A1AFED2BEE56939E8B00C3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8707CE429DD48BE8271A0DC0251D1212 /* Pods-bede-ios-sdk.debug.xcconfig */;
+			baseConfigurationReference = 055EC15C096E676EB435EA50E9BD0753 /* Pods-BedeSdkExample.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -195,7 +275,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-bede-ios-sdk/Pods-bede-ios-sdk-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-BedeSdkExample/Pods-BedeSdkExample-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -204,46 +284,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-bede-ios-sdk/Pods-bede-ios-sdk.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		8F68C23C2792A8A43B152D53486122D6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E3E2C29B1EB408E1EE70C3BCFFF7AFD /* Pods-bede-ios-sdk.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-bede-ios-sdk/Pods-bede-ios-sdk-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-bede-ios-sdk/Pods-bede-ios-sdk.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-BedeSdkExample/Pods-BedeSdkExample.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -257,6 +298,85 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		41B303C9E2ED9B6A90541E5757598DBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56EBF15800FDF7F6029515E6E2344C2D /* Pods-BedeSdk.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-BedeSdk/Pods-BedeSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BedeSdk/Pods-BedeSdk.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49547092600F686FFDFE132E5096BEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C479C351DD1AAB1C11830C86F395BAA /* Pods-BedeSdk.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-BedeSdk/Pods-BedeSdk-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BedeSdk/Pods-BedeSdk.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		9248FB869881F9B39BE18C435BA3B865 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -386,14 +506,53 @@
 			};
 			name = Debug;
 		};
+		FFFE202E07E1524F73BB9F2CCE085527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476FB571A880CD7BE0AC12F8C78169FE /* Pods-BedeSdkExample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-BedeSdkExample/Pods-BedeSdkExample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BedeSdkExample/Pods-BedeSdkExample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F63847740F46A5832D281E5A3689C56 /* Build configuration list for PBXNativeTarget "Pods-bede-ios-sdk" */ = {
+		0B87DDA21498A280DE4F297312A9958A /* Build configuration list for PBXNativeTarget "Pods-BedeSdk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BD700C4896F4792984B2548F2A3C2BC /* Debug */,
-				8F68C23C2792A8A43B152D53486122D6 /* Release */,
+				49547092600F686FFDFE132E5096BEF2 /* Debug */,
+				41B303C9E2ED9B6A90541E5757598DBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -403,6 +562,15 @@
 			buildConfigurations = (
 				EB120F3E76B717F0894562179A7F72CC /* Debug */,
 				9248FB869881F9B39BE18C435BA3B865 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E10A66A784B355F075D0D3A3AB33CD2A /* Build configuration list for PBXNativeTarget "Pods-BedeSdkExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFE202E07E1524F73BB9F2CCE085527 /* Debug */,
+				026EC78B91A1AFED2BEE56939E8B00C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

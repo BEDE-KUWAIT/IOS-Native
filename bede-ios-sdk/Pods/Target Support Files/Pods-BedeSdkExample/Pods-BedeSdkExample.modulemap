@@ -1,0 +1,6 @@
+framework module Pods_BedeSdkExample {
+  umbrella header "Pods-BedeSdkExample-umbrella.h"
+
+  export *
+  module * { export * }
+}

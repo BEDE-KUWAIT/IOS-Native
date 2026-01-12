@@ -4,18 +4,24 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-BedeSdk.xcscheme</key>
+		<key>BedeSdk.xcscheme</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
+			<key>orderHint</key>
+			<integer>0</integer>
 		</dict>
-		<key>Pods-BedeSdkExample.xcscheme</key>
+		<key>BedeSdkExample.xcscheme_^#shared#^_</key>
 		<dict>
-			<key>isShown</key>
-			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
-	<dict/>
+	<dict>
+		<key>A85BB2A42EA6E3FD00182B4C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
 </dict>
 </plist>
