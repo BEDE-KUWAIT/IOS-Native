@@ -31,8 +31,8 @@ Pod::Spec.new do |spec|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  spec.source_files  = "bede-ios-sdk/**/*.swift"
-  spec.exclude_files = "bede-ios-sdk/**/*.docc/**"
+  spec.source_files  = "bede-ios-sdk/BedeSdk/**/*.swift"
+  spec.exclude_files = "bede-ios-sdk/BedeSdk/**/*.docc/**"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
