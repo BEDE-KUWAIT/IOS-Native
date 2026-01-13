@@ -32,7 +32,7 @@ Add the following to your `Package.swift`:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/your-repo/bede-ios-sdk.git", from: "1.0.0")
+    .package(url: "https://github.com/BEDE-KUWAIT/IOS-Native.git", from: "1.0.0")
 ]
 ```
 
