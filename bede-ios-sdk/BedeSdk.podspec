@@ -3,7 +3,7 @@ Pod::Spec.new do |spec|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   spec.name         = "BedeSdk"
-  spec.version      = "1.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "iOS SDK for Bede Payment Gateway integration."
 
   spec.description  = <<-DESC
@@ -31,8 +31,8 @@ Pod::Spec.new do |spec|
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  spec.source_files  = "bede-ios-sdk/bede-ios-sdk/**/*.swift"
-  spec.exclude_files = "bede-ios-sdk/bede-ios-sdk/**/*.docc/**"
+  spec.source_files  = "IOS-Native/bede-ios-sdk/**/*.swift"
+  spec.exclude_files = "IOS-Native/bede-ios-sdk/**/*.docc/**"
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
